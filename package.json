@@ -1,6 +1,6 @@
 {
   "name": "TremBot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "author": "Pwn9 <admin@pwn9.com>",
   "description": "A discord bot for Tremor",
