@@ -17,7 +17,7 @@ module.exports = function(robot) {
 	
 	robot.error(function(err, res) {
 		
-		robot.logger.error("DOES NOT COMPUTE");
+		robot.logger.error("DOES NOT COMPUTE: " + err);
 		
 		if (res != null) {
 			return res.reply("DOES NOT COMPUTE: " + err);

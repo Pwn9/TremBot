@@ -9,7 +9,7 @@
 //
 // Commands:
 //   hubot choose <Options> - Generates a random option from the list of options given separated with commas
-//   hubot choose <string less than 2> - Generate a message indicating that needs to be two or more
+
 //
 // Author:
 //   Matt Sudol

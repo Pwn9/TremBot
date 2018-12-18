@@ -8,7 +8,6 @@
 //   None
 //
 // Commands:
-//   hubot roll - Generates a random number between 1 and 100 inclusive
 //   hubot roll <num> - Generates a random number between 1 and <num> inclusive
 //   hubot roll <num>-<num2> - Generates a random number between <num> and <num2> inclusive
 //

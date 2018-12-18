@@ -5,9 +5,9 @@
 		"log_date_format": "YYYY-MM-DD HH:mm:ss SSS",
 		"script": "bin/hubot",
 		"exec_interpreter": "bash",
-		"args": "--name trembot --adapter disbot",
-		"watch": false,
-		"ignore_watch" : ["node_modules", "log", ".git", "log/app.log", "log/err.log"],
+		"args": "--name trembot --adapter discobot",
+		"watch": true,
+		"ignore_watch" : ["node_modules", "log", ".git", "log/app.log", "log/err.log", "log/hubot.log"],
   		"watch_options": {
     		"followSymlinks": false
 		},	        
@@ -16,12 +16,13 @@
 		"port": "5556",
 		"env": {
 			"HUBOT_IP": "0.0.0.0",
-        	"HUBOT_NAME": "TremBot",
-			"DISBOT_TOKEN": "",
-			"HUBOT_DISCORD_TOKEN": "",
-			"HUBOT_DISCORD_STATUS_MSG": "TremBot is alive.",
+	        "HUBOT_NAME": "TremBot",
+			"HUBOT_DISCORD_TOKEN": "your oken",
+			"HUBOT_DISCORD_ACTIVITY": "Super Bot Bash",
+            "HUBOT_DISCORD_PASSWORD": "secret",
 			"HUBOT_GOOGLE_CSE_ID": "",
-			"HUBOT_GOOGLE_CSE_KEY": "",           
+			"HUBOT_GOOGLE_CSE_KEY": "",
+			"HUBOT_LOG_LEVEL": "debug"           
 		}
 	}]
 }
