@@ -12,6 +12,8 @@ available, etc!
 [hubot]: http://hubot.github.com
 [generator-hubot]: https://github.com/github/generator-hubot
 
+See TremBot in action on the Pwn9 Discord Channel, get your server invite at http://discord.pwn9.com
+
 ### Running TremBot Locally
 
 You can test your hubot by running the following, however some plugins will not
