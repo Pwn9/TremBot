@@ -8,18 +8,19 @@
 //   None
 //
 // Commands:
-
+//   None
 //
 // Author:
-//   Matt Sudol
+//   msudol
 
-module.exports = function(robot) {
+module.exports = function (robot) {
 	
 	robot.error(function(err, res) {
 		
-		robot.logger.error("DOES NOT COMPUTE: " + err);
+    robot.logger.error("Unhandled Error");
+		robot.logger.error(err);
 		
-		if (res != null) {
+		if (res !== null) {
 			return res.reply("DOES NOT COMPUTE: " + err);
 		}
 		

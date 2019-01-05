@@ -9,10 +9,10 @@
 //   HUBOT_DISCORD_PASSWORD - Set a password to only allow users who know it to make changes
 //
 // Commands:
-//   
+//   None
 //
 // Author:
-//   Matt Sudol
+//   msudol
 
 //Settings
 var passcode = process.env.HUBOT_DISCORD_PASSWORD;
