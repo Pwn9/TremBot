@@ -7,7 +7,7 @@
 		"exec_interpreter": "bash",
 		"args": "--name trembot --adapter discobot",
 		"watch": true,
-		"ignore_watch" : ["node_modules", "log", ".git", "log/app.log", "log/err.log", "log/hubot.log"],
+		"ignore_watch" : ["node_modules", "log", ".git", "log/app.log", "log/err.log"],
   		"watch_options": {
     		"followSymlinks": false
 		},	        
@@ -17,10 +17,9 @@
 		"env": {
 			"HUBOT_IP": "0.0.0.0",
 	        "HUBOT_NAME": "TremBot",
-			"HUBOT_DISCORD_TOKEN": "your oken",
+			"HUBOT_DISCORD_TOKEN": "your discord token",
 			"HUBOT_DISCORD_ACTIVITY": "Super Bot Bash",
             "HUBOT_DISCORD_PASSWORD": "secret",
-            "HUBOT_DISCORD_AUTOCONNECT": true,
 			"HUBOT_GOOGLE_CSE_ID": "",
 			"HUBOT_GOOGLE_CSE_KEY": "",
 			"HUBOT_LOG_LEVEL": "debug"           

@@ -9,23 +9,25 @@
 //   HUBOT_DISCORD_PASSWORD - Set a password to only allow users who know it to make changes
 //
 // Commands:
-//   None
+//   
 //
 // Author:
 //   msudol
 
 //Settings
-var passcode = process.env.HUBOT_DISCORD_PASSWORD;
+var passcode = process.env.HUBOT_DISCORD_PASSWORD || "password";
 
-module.exports = function(robot) {
+module.exports = function (robot) {
     
     // add a helper function to clean up input strings
-    String.prototype.unquoted = function (){return this.replace (/(^")|("$)/g, '')};
+    String.prototype.unquoted = function () {
+      return this.replace(/(^")|("$)/g, '');
+    };
     
     // when something is done repeatedly, make a function out of it
-    var parseCmd = function(msg) {
+    var parseCmd = function (msg) {
 		var opts = msg.match[1];
-        var options = opts.match(/(?=\S)[^"\s]*(?:"[^\\"]*(?:\\[\s\S][^\\"]*)*"[^"\s]*)*/g);  
+        var options = opts.match(/(?=\S)[^"\s]*(?:"[^\\"]*(?:\\[\s\S][^\\"]*)*"[^"\s]*)*/g);
         
         for (var i = 0; i < options.length; i++) {
             if (typeof options[i] === 'string') {
@@ -38,7 +40,7 @@ module.exports = function(robot) {
     };
     
     // respond to setGame command
-    robot.respond(/setGame (.*)/i, function(msg) {
+    robot.respond(/setGame (.*)/i, function (msg) {
 		var reply;
         
         var options = parseCmd(msg);

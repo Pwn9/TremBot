@@ -9,5 +9,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-business-cat",
-  "hubot-eliza"
+  "hubot-eliza",
+  "hubot-keepalive"
 ]

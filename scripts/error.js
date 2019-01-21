@@ -14,16 +14,17 @@
 //   msudol
 
 module.exports = function (robot) {
-	
-	robot.error(function(err, res) {
-		
-    robot.logger.error("Unhandled Error");
-		robot.logger.error(err);
-		
-		if (res !== null) {
-			return res.reply("DOES NOT COMPUTE: " + err);
-		}
-		
-	});
-	
+
+    robot.error(function (err, res) {
+
+        robot.logger.error(err);
+        //robot.logger.debug(err.stack);
+
+        // if error was triggered by user, tell them
+        if ((res !== undefined) && (res !== null)) {
+            return res.reply("DOES NOT COMPUTE: " + err);
+        }
+
+    });
+
 };
