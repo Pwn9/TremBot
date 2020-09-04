@@ -1,15 +1,15 @@
 {
 	"name": "TremBot",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"private": true,
 	"author": "Pwn9 <admin@pwn9.com>",
 	"description": "An example Discord Bot using Hubot and Discobot Adapter",
 	"dependencies": {
-		"cron": "^1.7.2",
+		"cron": "^1.8.2",
 		"hubot": "^3.3.2",
-		"hubot-business-cat": "^1.5.14",
+		"hubot-business-cat": "^1.5.15",
 		"hubot-diagnostics": "^0.0.2",
-		"hubot-discobot": "^1.0.2",
+		"hubot-discobot": "^1.0.3",
 		"hubot-eliza": "^1.0.0",
 		"hubot-google-images": "^0.2.7",
 		"hubot-google-translate": "^0.2.1",
@@ -25,9 +25,9 @@
 		"jquery": "latest",
 		"jsdom": "^13.2.0",
 		"r2": "^2.0.1",
-		"request": "^2.88.0"
+		"request": "^2.88.2"
 	},
 	"engines": {
-		"node": "0.10.x"
+		"node": ">=12.0.0"
 	}
 }
