@@ -9,7 +9,7 @@
 		"hubot": "^3.3.2",
 		"hubot-business-cat": "^1.5.15",
 		"hubot-diagnostics": "^0.0.2",
-		"hubot-discobot": "^1.0.3",
+		"hubot-discobot": "^1.0.4",
 		"hubot-eliza": "^1.0.0",
 		"hubot-google-images": "^0.2.7",
 		"hubot-google-translate": "^0.2.1",
