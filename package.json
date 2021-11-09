@@ -1,6 +1,6 @@
 {
 	"name": "TremBot",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"private": true,
 	"author": "Pwn9 <admin@pwn9.com>",
 	"description": "An example Discord Bot using Hubot and Discobot Adapter",
@@ -13,7 +13,7 @@
 		"hubot-eliza": "^1.0.0",
 		"hubot-google-images": "^0.2.7",
 		"hubot-google-translate": "^0.2.1",
-		"hubot-help": "^0.2.2",
+		"hubot-help-plus": "^0.0.1",
 		"hubot-heroku-keepalive": "^1.0.3",
 		"hubot-keepalive": "0.0.2",
 		"hubot-maps": "^0.0.3",
