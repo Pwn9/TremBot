@@ -168,7 +168,7 @@ Where `<adapter>` is the name of your adapter without the `hubot-` prefix.
 
 TremBot specifically is designed to run on discord, and uses the adapter 
 hubot-discobot which was specifically designed for TremBot to use the latest 
-version of the Discord.js API (at time of writing 12.3.x).
+version of the Discord.js API (at time of writing 13.3.x).
 
 hubot-discobot is already added as a dependency, so `npm install --save` should 
 set it up automatically.

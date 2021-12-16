@@ -1,6 +1,6 @@
 {
 	"name": "TremBot",
-	"version": "0.0.9",
+	"version": "0.1.0",
 	"private": true,
 	"author": "Pwn9 <admin@pwn9.com>",
 	"description": "An example Discord Bot using Hubot and Discobot Adapter",
@@ -28,6 +28,6 @@
 		"request": "^2.88.2"
 	},
 	"engines": {
-		"node": ">=12.0.0"
+		"node": ">=16.6.0"
 	}
 }
